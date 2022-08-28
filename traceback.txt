@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 29, in script call
+    call battles_dober
+  File "game/battle.rpy", line 85, in script
+    if d10 >= 9:            #20% chance
+  File "game/battle.rpy", line 85, in <module>
+    if d10 >= 9:            #20% chance
+NameError: name 'd10' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 29, in script call
+    call battles_dober
+  File "game/battle.rpy", line 85, in script
+    if d10 >= 9:            #20% chance
+  File "C:\Users\user\Documents\Ren'Py\renpy-8.0.2-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\user\Documents\Ren'Py\renpy-8.0.2-sdk\renpy\python.py", line 1083, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\user\Documents\Ren'Py\renpy-8.0.2-sdk\renpy\python.py", line 1076, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/battle.rpy", line 85, in <module>
+    if d10 >= 9:            #20% chance
+NameError: name 'd10' is not defined
+
+Windows-10-10.0.18362 AMD64
+Ren'Py 8.0.2.22081402
+test 1.0
+Sun Aug 21 10:37:01 2022
