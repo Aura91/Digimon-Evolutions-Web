@@ -1,2 +1,2 @@
 # Digimon-Evolutions-Web
-A turn base battle demo using renpy.
+A turn-based RPG battle demo using Renpy.
